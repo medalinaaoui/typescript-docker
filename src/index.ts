@@ -34,7 +34,7 @@ app.get("/test", (req: Request, res: Response) => {
 //     });
 // });
 
-const PORT = 8000;
+const PORT = 8001;
 
 app.listen(PORT, () => {
   console.log("app running on port: ", PORT);
